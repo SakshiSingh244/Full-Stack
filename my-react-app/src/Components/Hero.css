@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero
+{
+    background: #F6FAFF;
+}
+
+span
+{
+    background: rgba(41,150,251,0.15);
+    padding: 0 0.4rem;
+}
+
+.hero-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.heading
+{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 139.8%;
+    margin-bottom: 0.5rem;
+    color: #222C44;
+}
+
+
+.hero-para
+{
+    font-size: 20px;
+    color: #7D8082;
+    font-weight: 500;
+}
+
+.hero-button
+{
+    background-color: #D5EFFA;
+    color: #1A21BC;
+    font-size: 16px;
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 40%;
+    font-weight: 600;
+    transition: 0.3s transform ease;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero-button:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 8px rgba(26, 33, 188, 0.10);
+}
+
+
+

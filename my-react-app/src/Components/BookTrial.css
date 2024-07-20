@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-.container {
+/*.container {
     margin: auto auto 2rem auto;
     text-align: center;
     display: flex;
@@ -9,7 +9,7 @@
     flex-direction: row;
   }
   
-  .left-trial {
+  .trial-class-left {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -17,16 +17,16 @@
     padding: 1rem;
   }
   
-  .left-trial h2 {
+  .trial-class-left h2 {
     font-size: 32px;
     margin-bottom: -0.5rem;
   }
   
-  .left-trial p {
+  .trial-class-left p {
     font-size: 16px;
   }
   
-  .left-trial img {
+  .trial-class-left img {
     width: 450px;
     height: auto;
   }
@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
-  }
+  }**/
   
   .form-group {
     margin-bottom: 1rem;
@@ -87,4 +87,3 @@
     transform: translateY(-3px);
     box-shadow: 0px 4px 10px rgba(26, 33, 188, 0.15);
   }
-  

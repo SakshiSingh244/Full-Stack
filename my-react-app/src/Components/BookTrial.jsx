@@ -23,7 +23,7 @@ const BookTrial = () => {
 
   return (
     <div className="container">
-      <div className="left-trial">
+      <div className="trial-class-left">
         <h2>Book Trial Class</h2>
         <p>Join us for a free trial class and experience our unique <br /> approach to teaching math.</p>
         <img src={TrialClassImg} alt="Trial Class" />

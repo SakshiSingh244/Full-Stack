@@ -4,13 +4,13 @@ import SecondSection from '../Components/SecondSection';
 import NotConvinced from '../Components/NotConvinced';
 import ChildPerformance from '../Components/ChildPerformance';
 import Testimonial from '../Components/Testimonial';
-// import Stats from '../Components/Stats';
+import Stats from '../Components/Stats';
 
 const Landing = () => {
   return (
     <div>
       <Hero />
-      {/* <Stats /> */}
+      <Stats />
       <SecondSection />
       <ChildPerformance />
       <Testimonial />

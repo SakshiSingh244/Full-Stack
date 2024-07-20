@@ -23,12 +23,12 @@ const BookTrial = () => {
 
   return (
     <div className="container">
-      <div className="left">
+      <div className="left-trial">
         <h2>Book Trial Class</h2>
         <p>Join us for a free trial class and experience our unique <br /> approach to teaching math.</p>
         <img src={TrialClassImg} alt="Trial Class" />
       </div>
-      <div className="right">
+      <div className="right-trial">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name</label>

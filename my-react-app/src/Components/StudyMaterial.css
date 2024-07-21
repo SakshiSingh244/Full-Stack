@@ -1,0 +1,74 @@
+
+.material-container
+{
+    background-color:#D5EFFA;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.study-material-heading
+{
+    color: #222C44;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 2rem;
+}
+.explore-more{
+    margin-bottom: 20px;
+    font-size:20px;
+    margin-left:70%;
+}
+#material{
+    background-color: white;
+}
+.star{
+    background-color: white;
+    margin-left: 68px;
+}
+.rating{
+    margin-top: 8px;
+    margin-bottom:5px;
+    font-size: 18px;
+    
+}
+.all-materials{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    height:400px;
+    width:1000px;
+    
+}
+
+.box{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content:center;
+    height:315px;
+    width:290px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+
+}
+.box:hover
+  {
+    box-shadow: 0px 8px 18px rgba(26,33,188,0.10);
+  }
+
+.box-img{
+    width:200px;
+    height:200px;
+    margin-left: 45px;
+    margin-top:20px;
+}
+hr {
+    border: 0.3px solid #7D8082; 
+    width:200px;
+  }
+.class{
+    margin-bottom: 8px;
+}

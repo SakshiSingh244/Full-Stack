@@ -56,6 +56,12 @@ span
     font-family: 'Poppins',sans-serif;
 }
 
+.hero-button a
+{
+    text-decoration: none;
+    color: #1A21BC;
+}
+
 .hero-button:hover
 {
     transform: translateY(-3px);

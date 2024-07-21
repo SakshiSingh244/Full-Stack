@@ -53,8 +53,8 @@ const Testimonial = () => {
 
   return (
     <div className='container'>
-      <h2 className='testimonial-heading'>Hear from the <span>Happy Students</span></h2>
-      <div className='testimonial'>
+      <h2 id='testimonial-heading'>Hear from the <span>Happy Students</span></h2>
+      <div id='testimonial'>
         <div className="left">
         <div className={`testimonial-content ${isSliding ? 'sliding' : ''}`}>
         <h3 className='sub-heading'>{testimonials[current].heading}</h3>

@@ -1,10 +1,10 @@
-.testimonial {
+#testimonial {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .testimonial-heading {
+  #testimonial-heading {
     color: #222C44;
     font-weight: 700;
     font-size: 38px;

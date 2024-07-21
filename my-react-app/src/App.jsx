@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Landing from './Pages/Landing';
 import Footer from './Components/Footer';
 import BookTrialClass from './Pages/BookTrialClass';
+import Contactemp from './Pages/Contactemp';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/bookclass" element={<BookTrialClass />} />
+        <Route path="/Contact" element={<Contactemp />} />
       </Routes>
       <Footer />
      </div>

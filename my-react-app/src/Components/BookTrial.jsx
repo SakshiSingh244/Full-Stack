@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './BookTrial.css';
-import TrialClassImg from '../assets/TrialClassImg.png';
+import ClassRoomGif from '../assets/ClassRoomGif.gif';
 
 const BookTrial = () => {
   const [formData, setFormData] = useState({
@@ -17,7 +17,6 @@ const BookTrial = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to a server or email service
     console.log('Form Data:', formData);
   };
 
@@ -26,7 +25,7 @@ const BookTrial = () => {
       <div className="leftTrial">
         <h2>Book Trial Class</h2>
         <p>Join us for a free trial class and experience our unique <br /> approach to teaching math.</p>
-        <img src={TrialClassImg} alt="Trial Class" />
+        <img src={ClassRoomGif} alt="Trial Class" />
       </div>
       <div className="rightTrial">
         <form onSubmit={handleSubmit}>

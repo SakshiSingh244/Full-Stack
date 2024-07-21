@@ -32,6 +32,13 @@
     width: 450px;
     height: auto;
   }
+
+    video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
   
   .rightTrial {
     width: 50%;

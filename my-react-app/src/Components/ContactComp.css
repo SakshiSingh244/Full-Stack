@@ -1,0 +1,88 @@
+.contact-main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .contact-left-container, .contact-right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+     justify-content: center;
+   
+  }
+  
+  .contact-right-container img {
+    width: 75%;
+    height: auto;
+
+  }
+
+  
+  .contact-upper-container {
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+  
+  .ContactHead {
+    font-size: 40px;
+    color: #222C44;
+    margin-bottom: 5px;
+  }
+  
+  .ContactSub {
+    font-size: 22px;
+    color: #163247;
+  }
+  
+  .contact-lower-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #D5EFFA;
+    border: 1px solid #D5EFFA;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(26,33,118,0.13);
+  }
+  
+  .form-group input::placeholder, .form-group textarea::placeholder {
+    color: #6c757d;
+  }
+  
+  button {
+    align-self: center;
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #222C44;
+    color: #D5EFFA;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #222C44;
+  }

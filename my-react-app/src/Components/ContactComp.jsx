@@ -23,7 +23,7 @@ const ContactComp = () => {
               <label htmlFor="message">Message</label>
               <textarea id="message" name="message" placeholder="Enter Message"></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" id="con">Submit</button>
           </form>
         </div>
       </div>

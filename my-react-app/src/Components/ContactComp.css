@@ -71,7 +71,7 @@
     color: #6c757d;
   }
   
-  button {
+  .con {
     align-self: center;
     display: block;
     width: 40%;
@@ -83,6 +83,6 @@
     margin-top: 10px;
   }
   
-  button:hover {
+  .con:hover {
     background-color: #222C44;
   }
